@@ -1,0 +1,22 @@
+# IDE configuration folder
+.idea
+.vs
+
+# dependencies
+node_modules
+
+# Logs
+*.log*
+
+# vite
+.vite
+
+# Nuxt
+.nuxt
+.nitro
+.cache
+.output
+
+# Build
+.env
+dist
