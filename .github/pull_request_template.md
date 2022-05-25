@@ -19,7 +19,7 @@ Add something like "Fixes #XX." or "Closes #XX".
 
 <!--Add things here that still need to be done in this PR.-->
 
-- [ ] Applied `npm run format`
+- [ ] Applied linter formatting
 - [ ] Tested the changes locally
 
 <!--Thank you really much to Contribute to Berry! You are awesome.-->
