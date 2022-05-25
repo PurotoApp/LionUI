@@ -21,5 +21,5 @@ Add something like "Fixes #XX." or "Closes #XX".
 
 - [ ] Applied linter formatting
 - [ ] Tested the changes locally
-
+- [ ] Tested changes on production build
 <!--Thank you really much to Contribute to Berry! You are awesome.-->
