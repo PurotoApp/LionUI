@@ -28,7 +28,7 @@ You found a bug or have an exciting idea for a new feature? Or just have a quest
 
 ## Funding the Project
 
-Running Puroto's servers and infrastructure cost real money. We work hard to make this project epic, but we can't without your awesome support! [Join our Patreon]() to help us run Puroto.
+Running Puroto's servers and infrastructure cost real money. We work hard to make this project epic, but we can't without your awesome support! [Join our Patreon](https://www.patreon.com/PurotoApp) to help us run Puroto.
 
 ## Spreading the word
 
