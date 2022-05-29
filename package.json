@@ -21,7 +21,7 @@
     "prettier": "^2.6.2",
     "prettier-eslint": "^15.0.1",
     "sass": "^1.52.1",
-    "sass-loader": "10"
+    "sass-loader": "13"
   },
   "dependencies": {
     "@nuxt/typescript-build": "^2.1.0"
