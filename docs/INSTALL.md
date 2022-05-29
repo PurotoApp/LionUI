@@ -28,6 +28,7 @@ npm run dev
 ```
 
 Alternatively, you can use the following `makfile` rule:
+
 ```bash
 make dev
 ```
@@ -41,6 +42,7 @@ npm run build
 ```
 
 Alternatively, you can use the following `makfile` rule:
+
 ```bash
 make
 ```
@@ -52,6 +54,7 @@ npm run preview
 ```
 
 Alternatively, you can use the following `makfile` rule:
+
 ```bash
 make
 ```
