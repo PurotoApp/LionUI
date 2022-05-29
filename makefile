@@ -26,12 +26,23 @@ all: .output
 	@ $(PM) build
 
 # Live development server
-dev: .output
+dev: node_modules
 	@ $(PM) dev
 
+# Production build
+build: .output
+
 # Run production preview
-preview: .output
+preview: build
 	@ $(PM) preview
+
+# Pre-render production as static HTML
+gen: build
+	@ $(PM) generate
+
+# Run linter
+lint: node_modules
+	@ $(PM) lint
 
 # Install dependencies
 node_modules:
@@ -40,17 +51,17 @@ node_modules:
 
 # Remove production build files
 clean:
-	@ rm -rf .output
+	@ rm -rf .output dist
 	@ echo "clean done!" $(COLOR)
 
 # Remove dependencies
 fclean: clean
-	@ rm -rf node_modules
+	@ rm -rf node_modules .nuxt .vite
 	@ echo "fclean done!" $(COLOR)
 
-# Remove all cache configs
-reset: fclean
-	@ rm -rf .nuxt .vite *lock*
+# Remove dependencies lock
+dep-unlock: fclean
+	@ rm -rf *.lock *-lock.json
 	@ echo "Force clean done!" $(COLOR)
 
 # Force clean install of dependencies & configs
